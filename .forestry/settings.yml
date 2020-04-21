@@ -20,7 +20,7 @@ sections:
   label: Heilverfahren
   create: all
   match: "**/*"
-  templates: neuer-eintrag.yml
+  templates: neuer-eintrag
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
