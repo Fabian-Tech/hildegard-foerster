@@ -12,7 +12,7 @@ sections:
   label: config.toml
 - type: directory
   path: content
-  label: Pages
+  label: Hauptverzeichnis
   create: all
   match: "*"
 - type: directory
