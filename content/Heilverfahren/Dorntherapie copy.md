@@ -39,3 +39,5 @@ Wenn Sie mehr über die Dorn Therapie erfahren möchten:
 Link [Dorn Methode.com](http://www.dornmethode.com/)
 
 Link [Dorn-Methode-Therapie.de]()
+
+![](/images/rueckentherapie.jpg)
