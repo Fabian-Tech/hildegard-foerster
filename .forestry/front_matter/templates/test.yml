@@ -1,0 +1,34 @@
+---
+label: Test
+hide_body: true
+fields:
+- type: text
+  name: betreiberName
+  label: betreiberName
+- type: text
+  name: betreiberAddressLine1
+  label: betreiberAddressLine1
+- type: text
+  name: betreiberAddressLine2
+  label: betreiberAddressLine2
+- type: text
+  name: verantwortlichName
+  label: verantwortlichName
+- type: text
+  name: webDesginCompName
+  label: webDesginCompName
+- type: text
+  name: webDesginCompType
+  label: webDesginCompType
+- type: text
+  name: geschaeftsfuehrerName
+  label: geschaeftsfuehrerName
+- type: text
+  name: phoneNumber
+  label: phoneNumber
+- type: text
+  name: emailAddress
+  label: emailAddress
+- type: text
+  name: baseURL
+  label: baseURL
