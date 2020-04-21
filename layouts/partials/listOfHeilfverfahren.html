@@ -1,0 +1,12 @@
+<h2>Heilverfahren:</h2>
+<div class="row">
+    {{ range .Site.AllPages}}
+    {{if eq .Title "Heilverfahrens" }}
+    {{ range .Pages}}
+    <div class="col-md-3 pull-left">
+        <a href="{{.URL}}">{{.Title}}</a>  
+    </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>

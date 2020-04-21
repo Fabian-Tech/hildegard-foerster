@@ -1,0 +1,8 @@
+body{
+    background-image: url(/images/bg_image.jpg);
+}
+
+.bg-white{
+    background-color: wheat;
+    padding: 5px;
+}
