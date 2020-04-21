@@ -17,4 +17,5 @@ fields:
     color_format: Hex
   description: Textfarbe bestimmen
 pages:
+- content/Heilverfahren/hypnose.md
 - content/_index.md
