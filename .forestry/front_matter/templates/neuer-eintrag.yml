@@ -9,3 +9,10 @@ fields:
 - type: datetime
   name: date
   label: Datum
+- name: textColor
+  type: color
+  label: Textfarbe
+  config:
+    required: false
+    color_format: Hex
+  description: Textfarbe bestimmen
