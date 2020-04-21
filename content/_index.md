@@ -1,7 +1,7 @@
 ---
 title: Homepage
 date: 2020-04-21T10:30:09.000+00:00
-textColor: ''
+textColor: "#FF0000"
 draft: true
 
 ---
