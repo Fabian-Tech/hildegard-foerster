@@ -1,10 +1,13 @@
 {{ define "main" }}
 <strong>This is the index/Home template.</strong>
 
-    <!-- The part of the page that begins to differ between templates -->
-    <div class="bg-white">
-    {{ .Content }}
-        <span class="glyphicon glyphicon-wrench"></span>
+<!-- The part of the page that begins to differ between templates -->
+<div class="bg-white">
+    <span style="color:{{.Params.textColor}}">
+        {{.Content}}
+
+    </span>
+    <span class="glyphicon glyphicon-wrench"></span>
     {{partial "listOfHeilfverfahren" . }}
 </div>
-    {{ end }}
+{{ end }}
