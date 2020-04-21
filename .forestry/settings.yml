@@ -20,8 +20,8 @@ sections:
   label: Heilverfahren
   create: documents
   match: "**/*"
-  templates: 
-    - neuer-eintrag
+  templates:
+  - neuer-eintrag
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

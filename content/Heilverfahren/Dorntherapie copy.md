@@ -1,9 +1,9 @@
 ---
-title: "Dorntherapie Copy"
-date: 2020-04-21T12:30:09+02:00
+title: Dorntherapie Copy
+date: 2020-04-21T10:30:09.000+00:00
 draft: true
----
 
+---
 Rückentherapie nach Dorn
 Bei der Wirbeltherapie nach Dorn geht es darum, verschobene Wirbel und Gelenke wieder sanft einzurichten und dadurch Funktionsstörungen der Wirbelsäule zu beheben.
 Warten Sie nicht, bis sich erhebliche Beschwerden im Rücken zeigen, sondern nehmen Sie erste Anzeichen ernst!
@@ -33,10 +33,9 @@ Breuss Massage
 Energiemassage
 Kopf- und Gesichtsmassage
 Hypno-Schmerztherapie
- 
 
 Wenn Sie mehr über die Dorn Therapie erfahren möchten:
 
-Link Dorn Methode.com
+Link [Dorn Methode.com](http://www.dornmethode.com/)
 
-Link Dorn-Methode-Therapie.de
+Link [Dorn-Methode-Therapie.de]()
