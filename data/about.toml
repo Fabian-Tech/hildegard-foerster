@@ -2,12 +2,9 @@ betreiberName = "Hildegard Example"
 betreiberAddressLine1 = "Straßename 99"
 betreiberAddressLine2 = "56000 Ortstein"
 verantwortlichName = "Hildegard Example"
-
 webDesginCompName = "sowatech Sofwaretechnik"
 webDesginCompType = "GmbH &Co KG"
-
 geschäftsführerName = "Hildegard Example"
-
 phoneNumber = "02000-900000"
 emailAddress = "hildegard.example@example.de"
 URL = "example.de"
