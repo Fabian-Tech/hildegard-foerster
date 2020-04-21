@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: "\\data\\about.toml"
+  path: data/about.toml
   label: Impressum
 - type: document
   path: config.toml
