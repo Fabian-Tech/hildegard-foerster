@@ -10,7 +10,7 @@
         {{ $test := print (.Params.image)}}
         {{if (resources.GetMatch $test )}}
         {{ $originalimg := resources.GetMatch (.Params.image) }}
-        {{.Scratch.Set "image" ($originalimg.Resize "109x73 Gaussian") }}
+        {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
         {{ $thumbnail := .Scratch.Get "image" }}
         <img src='{{ $thumbnail.RelPermalink }}'>
         {{else}}
