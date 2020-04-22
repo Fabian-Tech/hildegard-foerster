@@ -23,6 +23,7 @@ fields:
       format: markdown
   label: Bildunterschrift
 pages:
+- content/Heilverfahren/facial-harmony-streicheleinheiten-für-ihr-gesicht.md
 - content/Heilverfahren/hypnose.md
 - content/impressum.md
 - content/kontakt.md
