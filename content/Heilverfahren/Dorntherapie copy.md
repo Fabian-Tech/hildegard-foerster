@@ -1,6 +1,8 @@
 ---
 title: Dorntherapie Copy
 date: 2020-04-21T10:30:09.000+00:00
+image: "/images/rueckentherapie.jpg"
+textUnderImage: Dorn Rückentherapie
 draft: true
 
 ---
@@ -13,11 +15,11 @@ Diese Zeichen können sehr vielfältig sein und man vermutet dabei nicht, dass d
 Wenn Sie eine oder mehrere der folgenden Fragen mit „Ja“ beantworten, empfehle ich Ihnen einen Besuch in meiner Praxis.
 
 * Haben Sie öfter müde Beine, die das Gehen erschweren?
-* Schmerzt Ihr Rücken schon bei geringer Gartenarbeit? 
-* Haben Sie Verspannungen im Nacken- und oberen Rückenbereich? Leiden Sie öfter unter Kopfschmerzen? 
-* Fühlen Sie sich steif und unbeweglich, wenn Sie länger gesessen haben? 
-* Leiden Sie unter Schulter- oder Handgelenksschmerzen? 
-* Haben Sie das Gefühl von kribbeln und/oder Taubheit in den Händen? 
+* Schmerzt Ihr Rücken schon bei geringer Gartenarbeit?
+* Haben Sie Verspannungen im Nacken- und oberen Rückenbereich? Leiden Sie öfter unter Kopfschmerzen?
+* Fühlen Sie sich steif und unbeweglich, wenn Sie länger gesessen haben?
+* Leiden Sie unter Schulter- oder Handgelenksschmerzen?
+* Haben Sie das Gefühl von kribbeln und/oder Taubheit in den Händen?
 * Verspüren Sie hin und wieder ein Engegefühl im Brustbereich ohne dass eine organische Krankheit diagnostiziert wurde?
 
 Meist sind diese Beschwerden mit dem Einrichten der Wirbelsäule nach 1 - 2 Tagen deutlich gebessert
@@ -39,5 +41,3 @@ Wenn Sie mehr über die Dorn Therapie erfahren möchten:
 Link [Dorn Methode.com](http://www.dornmethode.com/)
 
 Link [Dorn-Methode-Therapie.de]()
-
-![](/images/rueckentherapie.jpg)
