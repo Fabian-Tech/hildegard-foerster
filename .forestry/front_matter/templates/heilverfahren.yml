@@ -21,4 +21,6 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Test
+  label: Bildunterschrift
+pages:
+- content/Heilverfahren/hypnose.md
