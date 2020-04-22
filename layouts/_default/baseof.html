@@ -24,11 +24,12 @@
     <div class="container">
         {{partial "header"}}
 
-        {{partial "navbar"}}
-
         <div class="row">
             <div class="col-md-12">
                 <div class="border-white">
+                    
+                    {{partial "navbar"}}
+
                 <div class="bg-white">
                     {{ block "main" . }}
                     <!-- The part of the page that begins to differ between templates -->
