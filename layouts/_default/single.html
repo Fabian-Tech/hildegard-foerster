@@ -3,7 +3,11 @@
 <strong>This is the Single template.</strong>
 <div class="row">
     <div class="col-md-3">
+        {{if (isset .Params "image" )}}
         <img class="img-responsive" src="{{ .Params.image }}">
+        {{else}}
+        <img class="img-responsive" src="https://images.assetsdelivery.com/compings_v2/vectorshowstudio/vectorshowstudio1608/vectorshowstudio160800556.jpg">
+        {{end}}
         <p>{{ .Params.textUnderImage }}</p>
     </div>
     <div class="col-md-9">
