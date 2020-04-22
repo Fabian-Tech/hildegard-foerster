@@ -8,5 +8,9 @@ body{
     border-radius: 15px;
     background-color: white;
     background-clip: padding-box;
-    outline: 2px solid white;
+}
+
+.border-white{
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 17px;
 }
