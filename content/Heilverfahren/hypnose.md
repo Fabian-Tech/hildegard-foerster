@@ -1,7 +1,7 @@
 +++
 date = 2020-04-20T22:00:00Z
 draft = true
-image = ""
+image = "/images/black.jpg"
 textColor = ""
 textUnderImage = ""
 title = "Hypnose"
