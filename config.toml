@@ -1,5 +1,5 @@
 assetDir = "static"
 baseURL = "http://example.org/"
 languageCode = "de-de"
-pluralizelisttitles = "false"
+pluralizelisttitles = true
 title = "My New Hugo Site"
