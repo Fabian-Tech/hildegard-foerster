@@ -2,7 +2,7 @@
 
 <strong>This is the Single template.</strong>
 <div class="row">
-    {{if and (isset .Params "image" ) (ne .Params "" ) }}
+    {{if and (isset .Params "image" ) (ne (.Params.image) "" ) }}
     <div class="col-md-3">
         <img class="img-responsive" src="{{ .Params.image }}">
 
