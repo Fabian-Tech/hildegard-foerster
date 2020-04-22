@@ -1,10 +1,11 @@
 <h2>Heilverfahren:</h2>
 <div class="row">
     {{ range .Site.AllPages}}
-    {{if eq .Title "Heilverfahrens" }}
+    {{if eq .Title "Heilverfahren" }}
     {{ range .Pages}}
     <div class="col-md-3">
         <a href="{{.URL}}">{{.Title}}</a>  
+        {{ truncate 140 .Summary}}
     </div>
         {{ end }}
         {{ end }}
