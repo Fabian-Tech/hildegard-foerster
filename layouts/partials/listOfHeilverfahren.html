@@ -3,7 +3,10 @@
     {{ range .Site.AllPages}}
     {{if eq .Title "Heilverfahren" }}
     {{ range .Pages}}
-    <div class="col-md-3">
+    <div class="col-md-4">
+        {{if (isset .Params "image" )}}
+        <img class="img-responsive" src="{{ .Params.image }}">
+        {{ end }}
         <a href="{{.URL}}">{{.Title}}</a>  
         {{ truncate 140 .Summary}}
     </div>
