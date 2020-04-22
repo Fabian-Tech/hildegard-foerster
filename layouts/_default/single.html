@@ -1,7 +1,12 @@
 {{ define "main" }}
 
 <strong>This is the Single template.</strong>
-<div>
-{{.Content}}
+<div class="row">
+    <div class="col-md-3">
+        <img src="{{ .Params.image }}">
+    </div>
+    <div class="col-md-9">
+        {{.Content}}
+    </div>
 </div>
 {{ end }}
