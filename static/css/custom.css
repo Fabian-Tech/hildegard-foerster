@@ -4,13 +4,13 @@ body{
 
 
 .bg-white{
-    border: 25px solid rgba(255, 255, 255, 0.5);
+    border: 43px solid rgba(255, 255, 255, 0.5);
     border-radius: 15px;
     background-color: white;
     background-clip: padding-box;
 }
 
 .border-white{
-    border: 2px solid rgba(255, 255, 255, 1);
-    border-radius: 17px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 16px;
 }
