@@ -5,4 +5,6 @@ textColor: "#FF0000"
 draft: true
 
 ---
+![](/images/slide.jpg)
+
 Die Praxis bleibt bis auf weiteres geöffnet. Wir verzichten auf Händeschütteln und beachten die gebotenen Hgyienevorschriften. Weitere Informationen unter Aktuelles......
