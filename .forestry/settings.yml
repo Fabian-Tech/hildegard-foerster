@@ -21,7 +21,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - neuer-eintrag
+  - heilverfahren
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
