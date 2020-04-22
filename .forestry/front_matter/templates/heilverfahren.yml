@@ -22,3 +22,5 @@ fields:
     schema:
       format: markdown
   label: Bildunterschrift
+pages:
+- content/Heilverfahren/hypnose.md
