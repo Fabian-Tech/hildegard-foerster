@@ -21,4 +21,4 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Test
+  label: Bildunterschrift
