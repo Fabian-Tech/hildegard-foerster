@@ -2,10 +2,7 @@
 title: Dorntherapie Copy
 date: 2020-04-21T10:30:09.000+00:00
 image: "/images/rueckentherapie.jpg"
-textUnderImage: |-
-  Dorn Rückentherapie
-
-  Test test hampelmann
+textUnderImage: Dorn Rückentherapie
 draft: true
 
 ---
