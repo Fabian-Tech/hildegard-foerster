@@ -14,10 +14,10 @@
         {{ $thumbnail := .Scratch.Get "image" }}
         <img src='{{ $thumbnail.RelPermalink }}'>
         {{else}}
-        <p>This shouldn't be seen.</p>
+        <p>Kein Bild Hier.</p>
         {{end}}
         {{else}}
-        <br><p>Kein Bild.</p><br>
+        <br><p>Fehler bei der Thumbnail-Erstellung.</p><br>
 
         {{ end }}
         <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
