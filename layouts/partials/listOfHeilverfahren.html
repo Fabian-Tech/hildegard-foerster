@@ -3,14 +3,28 @@
     {{ range .Site.AllPages}}
     {{if eq .Title "Heilverfahren" }}
     {{ range .Pages}}
+    
     <div class="col-md-4">
         {{if (isset .Params "image" )}}
-        <img class="img-responsive" src="{{ .Params.image }}">
+        <!--<img class="img-responsive" src="{{ .Params.image }}">-->
+        {{ $test := print (.Params.image)}}
+        {{if (resources.GetMatch $test )}}
+        {{ $originalimg := resources.GetMatch (.Params.image) }}
+        {{.Scratch.Set "image" ($originalimg.Resize "109x73 Gaussian") }}
+        {{ $thumbnail := .Scratch.Get "image" }}
+        <img src='{{ $thumbnail.RelPermalink }}'>
+        {{else}}
+        <p>No image here...</p>
+        {{end}}
+
+
+
+
         {{ end }}
-        <a href="{{.URL}}">{{.Title}}</a>  
+        <a href="{{.URL}}">{{.Title}}</a>
         {{ truncate 140 .Summary}}
     </div>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-    </div>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>
