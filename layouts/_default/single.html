@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <strong>This is the Single template.</strong>
+<hr>
 <div class="row">
     {{if and (isset .Params "image" ) (ne (.Params.image) "" ) }}
     <div class="col-md-3">
