@@ -3,7 +3,7 @@
     {{ range .Site.AllPages}}
     {{if eq .Title "Heilverfahren" }}
     {{ range .Pages}}
-    
+
     <div class="col-md-4">
         {{if (isset .Params "image" )}}
         <!--<img class="img-responsive" src="{{ .Params.image }}">-->
@@ -14,11 +14,10 @@
         {{ $thumbnail := .Scratch.Get "image" }}
         <img src='{{ $thumbnail.RelPermalink }}'>
         {{else}}
-        <p>No image here...</p>
+        <p>This shouldn't be seen.</p>
         {{end}}
-
-
-
+        {{else}}
+        <br><p>Kein Bild.</p><br>
 
         {{ end }}
         <a href="{{.URL}}">{{.Title}}</a>
