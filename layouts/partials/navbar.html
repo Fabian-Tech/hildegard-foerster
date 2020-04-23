@@ -1,7 +1,7 @@
-<nav class="navbar">
+<nav class="hlist">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle btn btn-success" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         Menü  
         </button>
       </div>
@@ -9,14 +9,14 @@
         <ul class="nav navbar-nav">
           {{ range .Site.Menus.mainmenu}}
           {{ if .HasChildren }}
-          <li class="dropdown"><a class="dropdown-toggle btn btn-success navbar-btn" data-toggle="dropdown" href="#">{{.Name}}<span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{{.Name}}<span class="caret"></span></a>
             <ul class="dropdown-menu">
               {{ range .Children }}
               <li><a href="{{.URL}}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           {{ else}}
-          <li><a href="{{.URL}}"><button style="display:inline" class="btn btn-success navbar-btn">{{.Name}}</button></a></li>
+          <li><a href="{{.URL}}">{{.Name}}</a></li>
           {{ end }}
         {{ end }}
 

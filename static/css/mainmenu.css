@@ -23,8 +23,8 @@
     margin: 0 5px 0 0px; /* all list items */
     padding: 0;
     float: left;
-    display: block;
-    list-style-type: none;
+    /*display: block;
+    list-style-type: none;*/
     text-align: center;
     background:#74AA07;
     border-radius: 10px 10px 10px 10px;
