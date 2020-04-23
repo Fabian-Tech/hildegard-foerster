@@ -3,3 +3,6 @@ baseURL = "http://example.org/"
 languageCode = "de-de"
 pluralizelisttitles = false
 title = "My New Hugo Site"
+[[menu.mainmenu]]
+name = "Heilverfahren"
+weight = 7
