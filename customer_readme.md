@@ -13,7 +13,7 @@ Hier könnte man dem Kunden Informationen/Tipps zur Verwaltung angeben.
 
 Was ist ein "Well"?
 
-![](/admin/images/well_beispiel.png)
+![](/images/wellness.jpg)
 
 Wie macht man das?
 
