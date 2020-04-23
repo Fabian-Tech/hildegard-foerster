@@ -33,7 +33,7 @@ img{
 
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: none; 
+    background-color: #74AA07; 
 }
 
 /* Aus mainmenu.css der alten Seite kopiert: */
