@@ -9,6 +9,6 @@ menu:
 draft: true
 
 ---
-![](/images/slide.jpg)
+![](/images/main_higher_res.png)
 
 Die Praxis bleibt bis auf weiteres geöffnet. Wir verzichten auf Händeschütteln und beachten die gebotenen Hgyienevorschriften. Weitere Informationen unter Aktuelles......
