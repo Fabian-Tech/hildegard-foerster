@@ -1,5 +1,5 @@
 ---
-title: Informationen
+title: Readme for US
 
 ---
-Hier könnte man dem Kunden Informationen/Tipps zur Verwaltung angeben
+Infos für uns:
