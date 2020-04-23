@@ -9,7 +9,7 @@ name = "Wellness"
 weight = 5
 [menu.mainmenu]
 parent = "healingMethods"
-weight = 3
+weight = 5
 
 +++
 ![](/images/wellness.jpg)

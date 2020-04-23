@@ -9,7 +9,7 @@ title = "Hypnose"
 weight = 2
 [menu.mainmenu]
 parent = "healingMethods"
-weight = 5
+weight = 2
 
 +++
 #### Was ist Hypnose?
