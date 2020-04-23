@@ -8,7 +8,9 @@ title = "Wellness und Entspannung"
 +++
 ![](/images/wellness.jpg)
 
-#### {{< well >}}Breuss Massage
+{{< well >}}
+
+#### Breuss Massage
 
 Energetische Massage mit warmen Johannisblütenöl eine Wohltat für den Rücken und die Bandscheiben
 
