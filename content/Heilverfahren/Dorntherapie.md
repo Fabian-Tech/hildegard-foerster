@@ -1,8 +1,12 @@
 ---
 title: Rückentherapie nach Dorn
-date: 2020-04-21T10:30:09+00:00
+date: 2020-04-21T10:30:09.000+00:00
 image: "/images/rueckentherapie.jpg"
-textUnderImage: Dorn Rückentherapie
+textUnderImage: |-
+  Dorn Rückentherapie
+  Hier ist eine newline
+      hier auch   ! !
+  Letzte zeile jetzt.
 draft: true
 
 ---
