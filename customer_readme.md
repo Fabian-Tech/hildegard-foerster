@@ -13,9 +13,7 @@ Hier könnte man dem Kunden Informationen/Tipps zur Verwaltung angeben.
 
 Was ist ein "Well"?
 
-{{< well >}}
-Dieser Text befindet sich in einem "well".
-{{< /well >}}
+![](/admin/images/well_beispiel.png)
 
 Wie macht man das?
 
