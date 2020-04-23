@@ -8,11 +8,11 @@ title = "Wellness und Entspannung"
 +++
 ![](/images/wellness.jpg)
 
-#### Breuss Massage
+#### {{< well >}}Breuss Massage
 
 Energetische Massage mit warmen Johannisblütenöl eine Wohltat für den Rücken und die Bandscheiben
 
-40 Min. 38,--€
+40 Min. 38,--€{{< /well >}}
 
 #### Aromaöl – Massagen
 
