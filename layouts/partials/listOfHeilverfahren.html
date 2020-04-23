@@ -23,8 +23,11 @@
                 <br><p>Fehler bei der Thumbnail-Erstellung.</p><br>
 
             {{ end }}
-            <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
-            {{ truncate 137 .Summary}}
+            <a href="{{.URL}}">
+                {{ end }}
+                <h3>{{.Name}}</h3></a>
+                {{ with .Page}}
+            {{ truncate 137 .Page.Summary}}
         {{ end }}
         </div>
     {{ end }}
