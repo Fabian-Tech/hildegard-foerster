@@ -21,7 +21,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Bildunterschrift
+  label: Text unter Bild
 pages:
 - content/Heilverfahren/facial-harmony-streicheleinheiten-für-ihr-gesicht.md
 - content/Heilverfahren/hypnose.md
