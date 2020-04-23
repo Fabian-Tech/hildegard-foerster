@@ -4,7 +4,7 @@ draft = true
 textColor = ""
 title = "Praxis"
 [menu.mainmenu]
-weight = 4
+weight = 5
 
 +++
 Naturheilpraxis  

@@ -5,4 +5,4 @@ pluralizelisttitles = false
 title = "My New Hugo Site"
 [[menu.mainmenu]]
 name = "Heilverfahren"
-weight = 7
+weight = 3
