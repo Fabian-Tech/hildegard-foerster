@@ -6,6 +6,8 @@ textUnderImage = ""
 title = "Yoga in der Naturheilpraxis"
 [menu.Heilverfahren]
 name = "Yoga"
+weight = 6
+
 +++
 #### Yoga
 

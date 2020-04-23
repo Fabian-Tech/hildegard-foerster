@@ -6,6 +6,8 @@ textUnderImage = ""
 title = "Facial Harmony – Streicheleinheiten für Ihr Gesicht"
 [menu.Heilverfahren]
 name = "Facial Harmony"
+weight = 3
+
 +++
 Das Gesicht ist der Spiegel unserer Seele
 

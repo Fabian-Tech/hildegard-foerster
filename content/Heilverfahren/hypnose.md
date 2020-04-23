@@ -6,6 +6,8 @@ textColor = ""
 textUnderImage = ""
 title = "Hypnose"
 [menu.Heilverfahren]
+weight = 2
+
 +++
 #### Was ist Hypnose?
 
