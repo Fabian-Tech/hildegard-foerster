@@ -1,29 +1,31 @@
 <h2>Heilverfahren:</h2>
 <div class="row">
-    {{ range .Site.AllPages}}
-    {{if eq .Title "Heilverfahren" }}
-    {{ range .Pages}}
 
-    <div class="col-md-4 col-sm-6">
-        {{if (isset .Params "image" )}}
-        <!--<img class="img-responsive" src="{{ .Params.image }}">-->
-        {{ $test := print (.Params.image)}}
-        {{if (resources.GetMatch $test )}}
-        {{ $originalimg := resources.GetMatch (.Params.image) }}
-        {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
-        {{ $thumbnail := .Scratch.Get "image" }}
-        <img src='{{ $thumbnail.RelPermalink }}'>
-        {{else}}
-        <p>Kein Bild Hier.</p>
-        {{end}}
-        {{else}}
-        <br><p>Fehler bei der Thumbnail-Erstellung.</p><br>
+    {{ range .Site.Menus.heilverfahren}}
+        <div class="col-md-4 col-sm-6">
+        {{ with .Page}}
+        
+            <!-- Checking for image-->
+            {{if (isset .Params "image" )}}
+                {{ $test := print (.Params.image)}}
+                {{if (resources.GetMatch $test )}}
+                    {{ $originalimg := resources.GetMatch (.Params.image) }}
+                    {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
+                    {{ $thumbnail := .Scratch.Get "image" }}
+                    <img src='{{ $thumbnail.RelPermalink }}'>
 
+                    {{else}}
+
+                    <p>Kein Bild Hier.</p>
+
+                {{end}}
+                {{else}}
+                <br><p>Fehler bei der Thumbnail-Erstellung.</p><br>
+
+            {{ end }}
+            <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
+            {{ truncate 137 .Summary}}
         {{ end }}
-        <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
-        {{ truncate 137 .Summary}}
-    </div>
-    {{ end }}
-    {{ end }}
+        </div>
     {{ end }}
 </div>

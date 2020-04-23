@@ -4,7 +4,7 @@ draft = true
 image = "/images/facialharmony.jpg"
 textUnderImage = ""
 title = "Facial Harmony – Streicheleinheiten für Ihr Gesicht"
-[menu.Heilverfahren]
+[menu.heilverfahren]
 name = "Facial Harmony"
 weight = 3
 
