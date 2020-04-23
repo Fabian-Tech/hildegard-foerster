@@ -7,6 +7,9 @@ img{
     height: auto;
 }
 
+.header{
+    margin: 0px 0px 15px;
+}
 
 .bg-white{
     border-radius: 10px;
