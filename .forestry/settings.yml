@@ -5,9 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: customer_readme.html
+  path: customer_readme.md
   label: Informationen
-  read_only: false
+  read_only: true
 - type: heading
   label: Seiteninhalt
 - type: directory
