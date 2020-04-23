@@ -8,7 +8,10 @@ textUnderImage: |-
       hier auch   ! !
   Letzte zeile jetzt.
 draft: true
-
+menu:
+  Heilverfahren:
+    name: Dorntherapie
+    weight: 1
 ---
 Bei der Wirbeltherapie nach Dorn geht es darum, verschobene Wirbel und Gelenke wieder sanft einzurichten und dadurch Funktionsstörungen der Wirbelsäule zu beheben. Warten Sie nicht, bis sich erhebliche Beschwerden im Rücken zeigen, sondern nehmen Sie erste Anzeichen ernst!
 

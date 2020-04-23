@@ -5,7 +5,7 @@ image = "/images/black.jpg"
 textColor = ""
 textUnderImage = ""
 title = "Hypnose"
-
+[menu.Heilverfahren]
 +++
 #### Was ist Hypnose?
 

@@ -4,7 +4,8 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Wellness und Entspannung"
-
+[menu.Heilverfahren]
+name = "Wellness"
 +++
 ![](/images/wellness.jpg)
 

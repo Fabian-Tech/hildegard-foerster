@@ -4,7 +4,8 @@ draft = true
 image = "/images/yoga.jpg"
 textUnderImage = ""
 title = "Yoga in der Naturheilpraxis"
-
+[menu.Heilverfahren]
+name = "Yoga"
 +++
 #### Yoga
 
