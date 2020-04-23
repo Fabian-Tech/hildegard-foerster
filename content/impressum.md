@@ -5,7 +5,7 @@ image = ""
 textUnderImage = ""
 title = "Impressum"
 [menu.mainmenu]
-weight = 4
+weight = 6
 
 +++
 #### Betreiber der Website
