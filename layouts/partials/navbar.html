@@ -9,10 +9,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="/"><button style="display:inline" class="btn btn-success navbar-btn">Home</button></a></li>
-          {{ range .Pages}}
+          {{ range .Site.Menus.mainmenu}}
 
-          <li><a href="{{.URL}}"><button style="display:inline" class="btn btn-success navbar-btn">{{.Title}}</button></a></li>
+          <li><a href="{{.URL}}"><button style="display:inline" class="btn btn-success navbar-btn">{{.Name}}</button></a></li>
 
         {{ end }}
 

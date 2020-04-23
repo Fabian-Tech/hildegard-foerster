@@ -4,7 +4,9 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Impressum"
-
+[menu]
+[menu.mainmenu]
+        name = "Impressum"
 +++
 #### Betreiber der Website
 

@@ -4,6 +4,9 @@ draft = true
 image = "/images/HildegardFoerster.jpg"
 textUnderImage = ""
 title = "Über mich"
+[menu]
+[menu.mainmenu]
+        name = "Über mich"
 
 +++
 ## Über Hildegard Förster
