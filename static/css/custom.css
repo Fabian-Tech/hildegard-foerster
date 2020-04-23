@@ -27,3 +27,51 @@ img{
     border-radius: 10px;
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
 }
+
+/* Aus mainmenu.css der alten Seite kopiert: */
+
+.hlist li
+{
+    margin: 0 5px 0 0px; /* all list items */
+    padding: 0;
+    float: left;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    background:#74AA07;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height:28px;
+    width:140px;
+}
+
+
+.hlist li a, 
+.hlist li a:visited
+{
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    padding: 4px;
+    display: inline-block;
+    height: 24px;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    position: relative;
+    text-decoration: none;
+}
+
+.hlist .active a, 
+.hlist li a:hover, 
+.hlist ul li:hover a, 
+.hlist .active a:visited
+{
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+}
