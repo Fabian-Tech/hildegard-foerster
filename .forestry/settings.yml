@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: readme.md
+  label: Informationen
+  match: "**/*"
+- type: document
   path: data/about.toml
   label: Impressum
 - type: document
