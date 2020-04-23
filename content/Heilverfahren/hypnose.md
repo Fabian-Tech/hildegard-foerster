@@ -6,6 +6,7 @@ textColor = ""
 textUnderImage = ""
 title = "Hypnose"
 [menu.Heilverfahren]
+parent = "Heilverfahren"
 weight = 2
 
 +++

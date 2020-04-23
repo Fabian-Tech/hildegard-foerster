@@ -7,7 +7,7 @@ title = "Wellness und Entspannung"
 [menu.Heilverfahren]
 name = "Wellness"
 weight = 5
-
+parent = "Heilverfahren"
 +++
 ![](/images/wellness.jpg)
 

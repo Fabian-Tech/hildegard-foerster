@@ -6,6 +6,7 @@ textUnderImage = ""
 title = "Facial Harmony – Streicheleinheiten für Ihr Gesicht"
 [menu.Heilverfahren]
 name = "Facial Harmony"
+parent = "Heilverfahren"
 weight = 3
 
 +++

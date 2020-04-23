@@ -11,6 +11,7 @@ menu:
   Heilverfahren:
     name: Dorntherapie
     weight: 1
+    parent: Heilverfahren
 draft: true
 
 ---
