@@ -1,20 +1,18 @@
 +++
 date = ""
 draft = true
-image = ""
+image = "/images/wellness.jpg"
 textUnderImage = ""
 title = "Wellness und Entspannung"
 [menu.heilverfahren]
 name = "Wellness"
 weight = 5
 [menu.mainmenu]
-parent = "healingMethods"
 name = "Wellness"
+parent = "healingMethods"
 weight = 5
 
 +++
-![](/images/wellness.jpg)
-
 {{< well >}}
 
 #### Breuss Massage
