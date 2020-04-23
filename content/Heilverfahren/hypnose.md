@@ -47,8 +47,6 @@ Bewährte Einsatzmöglichkeiten der Hypnose:
 * Essstörungen
 * Lernblockaden
 
-![Hypnose](http://www.hildegard-foerster.de/Portals/22/praxisbilder/black.jpg "Hypnosetherapie")
-
-> #### Man kann einen Menschen nichts lehren, man kann ihm nur helfen, es in sich selbst zu finden.
+#### Man kann einen Menschen nichts lehren, man kann ihm nur helfen, es in sich selbst zu finden.
 
 (Galileo Galilei)
