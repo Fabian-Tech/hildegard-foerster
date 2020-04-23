@@ -4,9 +4,9 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Kontakt"
-[menu]
 [menu.mainmenu]
-        name = "Kontakt"
+weight = 5
+
 +++
 #### Naturheilpraxis
 

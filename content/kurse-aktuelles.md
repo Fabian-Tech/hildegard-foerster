@@ -4,9 +4,9 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Kurse/ Aktuelles"
-[menu]
 [menu.mainmenu]
-        name = "Kurse/ Aktuelles"
+weight = 3
+
 +++
 **Yogakurse in meiner Praxis**
 
