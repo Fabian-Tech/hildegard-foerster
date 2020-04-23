@@ -4,10 +4,11 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Wellness und Entspannung"
-[menu.Heilverfahren]
+[menu.heilverfahren]
 name = "Wellness"
 weight = 5
-parent = "Heilverfahren"
+[menu.mainmenu]
+parent = "healingMethods"
 +++
 ![](/images/wellness.jpg)
 

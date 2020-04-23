@@ -4,9 +4,10 @@ draft = true
 image = "/images/mutterundkind.jpg"
 textUnderImage = ""
 title = "Mutter und Kind"
-[menu.Heilverfahren]
+[menu.heilverfahren]
 weight = 4
-parent = "Heilverfahren"
+[menu.mainmenu]
+parent = "healingMethods"
 +++
 Als Mutter von zwei erwachsenen Kindern und zwei Enkeln, liegt mir das Wohlergehen von Mutter und Kind besonders am Herzen.  
 Je stärker sich die Mutter fühlt, umso kraftvoller entwickelt sich das Kind.

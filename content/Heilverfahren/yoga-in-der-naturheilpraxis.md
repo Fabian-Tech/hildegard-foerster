@@ -4,10 +4,11 @@ draft = true
 image = "/images/yoga.jpg"
 textUnderImage = ""
 title = "Yoga in der Naturheilpraxis"
-[menu.Heilverfahren]
+[menu.heilverfahren]
 name = "Yoga"
 weight = 6
-parent = "Heilverfahren"
+[menu.mainmenu]
+parent = "healingMethods"
 +++
 #### Yoga
 

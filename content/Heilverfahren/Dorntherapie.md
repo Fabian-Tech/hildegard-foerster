@@ -8,10 +8,13 @@ textUnderImage: |-
       hier auch   ! !
   Letzte zeile jetzt.
 menu:
-  Heilverfahren:
+  heilverfahren:
     name: Dorntherapie
     weight: 1
-    parent: Heilverfahren
+  mainmenu:
+    name: Dorntherapie
+    parent: healingMethods
+
 draft: true
 
 ---

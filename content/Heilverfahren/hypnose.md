@@ -5,10 +5,10 @@ image = "/images/black.jpg"
 textColor = ""
 textUnderImage = ""
 title = "Hypnose"
-[menu.Heilverfahren]
-parent = "Heilverfahren"
+[menu.heilverfahren]
 weight = 2
-
+[menu.mainmenu]
+parent = "healingMethods"
 +++
 #### Was ist Hypnose?
 

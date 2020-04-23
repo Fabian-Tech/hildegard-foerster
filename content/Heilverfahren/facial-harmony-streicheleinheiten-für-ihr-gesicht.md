@@ -4,10 +4,13 @@ draft = true
 image = "/images/facialharmony.jpg"
 textUnderImage = ""
 title = "Facial Harmony – Streicheleinheiten für Ihr Gesicht"
-[menu.Heilverfahren]
+[menu.heilverfahren]
 name = "Facial Harmony"
-parent = "Heilverfahren"
 weight = 3
+[menu.mainmenu]
+name = "Facial Harmony"
+parent = "healingMethods"
+
 
 +++
 Das Gesicht ist der Spiegel unserer Seele
