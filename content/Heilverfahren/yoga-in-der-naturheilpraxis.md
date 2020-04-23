@@ -2,14 +2,14 @@
 date = ""
 draft = true
 image = "/images/yoga.jpg"
-textUnderImage = ""
+textUnderImage = "Yogastunden in meiner Praxis\n\nMontag:    19.00 – 20.30 Uhr\n\nMittwoch: 19.00 – 20.30 Uhr\n\nAnfänger/Fortgeschrittene\nMonatsbeitrag    50,00 €\n\n \n\n \n\n kostenlose Probestunde auf Anfrage\n\n \n\n "
 title = "Yoga in der Naturheilpraxis"
 [menu.heilverfahren]
 name = "Yoga"
 weight = 6
 [menu.mainmenu]
-parent = "healingMethods"
 name = "Yoga"
+parent = "healingMethods"
 weight = 6
 
 +++
