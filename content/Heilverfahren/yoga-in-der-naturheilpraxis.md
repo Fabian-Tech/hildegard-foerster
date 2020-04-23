@@ -9,6 +9,7 @@ name = "Yoga"
 weight = 6
 [menu.mainmenu]
 parent = "healingMethods"
+name = "Yoga"
 weight = 6
 
 +++
