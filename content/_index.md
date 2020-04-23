@@ -5,7 +5,7 @@ textColor: "#FF0000"
 menu:
   mainmenu:
     name: Startseite
-    weight: 1
+    weight: 7
 draft: true
 
 ---

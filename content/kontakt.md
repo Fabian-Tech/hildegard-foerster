@@ -5,7 +5,8 @@ image = ""
 textUnderImage = ""
 title = "Kontakt"
 [menu.mainmenu]
-weight = 6
+weight = 12
+
 +++
 #### Naturheilpraxis
 

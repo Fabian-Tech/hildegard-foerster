@@ -5,7 +5,8 @@ image = ""
 textUnderImage = ""
 title = "Kurse/ Aktuelles"
 [menu.mainmenu]
-weight = 2
+weight = 8
+
 +++
 **Yogakurse in meiner Praxis**
 

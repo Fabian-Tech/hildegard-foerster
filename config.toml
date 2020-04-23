@@ -4,6 +4,6 @@ languageCode = "de-de"
 pluralizelisttitles = false
 title = "My New Hugo Site"
 [[menu.mainmenu]]
-name = "Heilverfahren"
 identifier = "healingMethods"
-weight = 3
+name = "Heilverfahren"
+weight = 9

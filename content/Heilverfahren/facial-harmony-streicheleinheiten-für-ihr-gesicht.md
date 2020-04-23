@@ -10,7 +10,7 @@ weight = 3
 [menu.mainmenu]
 name = "Facial Harmony"
 parent = "healingMethods"
-
+weight = 2
 
 +++
 Das Gesicht ist der Spiegel unserer Seele

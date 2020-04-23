@@ -6,7 +6,8 @@ textUnderImage = ""
 title = "Über Hildegard Förster"
 [menu.mainmenu]
 name = "Über mich"
-weight = 4
+weight = 10
+
 +++
 Im Mittelpunkt meiner Arbeit steht der ganze Mensch mit Körper, Geist und Seele.
 

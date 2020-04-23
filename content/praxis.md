@@ -4,7 +4,8 @@ draft = true
 textColor = ""
 title = "Praxis"
 [menu.mainmenu]
-weight = 5
+weight = 11
+
 +++
 Naturheilpraxis  
 Hildegard Förster  

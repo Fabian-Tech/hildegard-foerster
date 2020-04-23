@@ -8,6 +8,8 @@ title = "Mutter und Kind"
 weight = 4
 [menu.mainmenu]
 parent = "healingMethods"
+weight = 4
+
 +++
 Als Mutter von zwei erwachsenen Kindern und zwei Enkeln, liegt mir das Wohlergehen von Mutter und Kind besonders am Herzen.  
 Je stärker sich die Mutter fühlt, umso kraftvoller entwickelt sich das Kind.
