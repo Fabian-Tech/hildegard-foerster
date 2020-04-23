@@ -7,13 +7,8 @@ sections:
 - type: document
   path: readme.md
   label: Informationen
-  match: "**/*"
-- type: document
-  path: data/about.toml
-  label: Impressum
-- type: document
-  path: config.toml
-  label: config.toml
+- type: heading
+  label: Seiteninhalt
 - type: directory
   path: content
   label: Hauptverzeichnis
@@ -26,6 +21,14 @@ sections:
   match: "**/*"
   templates:
   - heilverfahren
+- type: heading
+  label: Administration
+- type: document
+  path: config.toml
+  label: config.toml
+- type: document
+  path: data/about.toml
+  label: Impressum
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
