@@ -28,6 +28,14 @@ img{
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+
+/* Bootstrap Sachen abschalten */
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: none; 
+}
+
 /* Aus mainmenu.css der alten Seite kopiert: */
 
 .hlist li
