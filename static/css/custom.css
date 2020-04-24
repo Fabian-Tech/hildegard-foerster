@@ -83,3 +83,9 @@ img{
     color: white;
     text-decoration: none;
 }
+
+/* eigene änderungen */
+
+.hlist{
+    margin-bottom:15px;
+}
