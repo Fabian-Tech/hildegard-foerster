@@ -1,5 +1,5 @@
 +++
-2columns = false
+2columns = true
 block = "two-column-1"
 draft = true
 [col_1]
