@@ -6,9 +6,6 @@ fields:
   name: date
   label: date
 - type: text
-  name: textColor
-  label: textColor
-- type: text
   name: title
   label: title
 - name: gallery
