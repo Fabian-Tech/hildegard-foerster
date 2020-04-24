@@ -22,7 +22,6 @@ sections:
   match: "**/*"
   templates:
   - heilverfahren
-  - yoga
 - type: heading
   label: Administration
 - type: document
