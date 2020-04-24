@@ -2,33 +2,33 @@
 <div class="row">
 
     {{ range .Site.Menus.heilverfahren}}
-        <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         {{ with .Page}}
-        
-            <!-- Checking for image-->
-            {{if (isset .Params "image" )}}
-                {{ $test := print (.Params.image)}}
-                {{if (resources.GetMatch $test )}}
-                    {{ $originalimg := resources.GetMatch (.Params.image) }}
-                    {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
-                    {{ $thumbnail := .Scratch.Get "image" }}
-                    <img src='{{ $thumbnail.RelPermalink }}'>
 
-                    {{else}}
-                    <br>
-                    <p>Kein Bild Hier.</p>
+        <a href="{{.URL}}">
+            <h3>{{.Name}}</h3>
+        </a>
 
-                {{end}}
-                {{else}}
-                <br><p>Fehler bei der Thumbnail-Erstellung.</p><br>
+        <!-- Checking for image-->
+        {{if (isset .Params "image" )}}
+        {{ $test := print (.Params.image)}}
+        {{if (resources.GetMatch $test )}}
+        {{ $originalimg := resources.GetMatch (.Params.image) }}
+        {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
+        {{ $thumbnail := .Scratch.Get "image" }}
+        <img src='{{ $thumbnail.RelPermalink }}'>
 
-            {{ end }}
-            <a href="{{.URL}}">
-                {{ end }}
-                <h3>{{.Name}}</h3></a>
-                {{ with .Page}}
-            {{ truncate 137 .Page.Summary}}
+        {{else}}
+        <br>
+        <p>Kein Bild Hier.</p>
+        {{end}}
+
+        {{else}}
+        <br>
+        <p>Fehler bei der Thumbnail-Erstellung.</p><br>
         {{ end }}
-        </div>
+        {{ truncate 137 .Page.Summary}}
+        {{ end }}
+    </div>
     {{ end }}
 </div>
