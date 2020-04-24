@@ -18,5 +18,10 @@ fields:
     name: column
     label: Column
     template: text-column
+- name: 2columns
+  type: boolean
+  label: IsTwoColumns
+  hidden: true
+  default: true
 pages:
 - content/Testfile.md
