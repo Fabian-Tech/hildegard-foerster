@@ -25,3 +25,4 @@ fields:
   default: true
 pages:
 - content/Testfile.md
+- content/test2.md
