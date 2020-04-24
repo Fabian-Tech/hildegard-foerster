@@ -70,6 +70,21 @@ img{
   background-color: rgba(116, 170, 7, 0) !important;
 }
 
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.navbar-toggle{
+    background-color:#74AA07;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.navbar-nav {
+    float: unset;
+    margin: 0;
+}
+
 /* Aus mainmenu.css der alten Seite kopiert: */
 
 .hlist li
@@ -86,6 +101,7 @@ img{
     -webkit-border-radius: 10px;*/
     height:28px;
     width:140px;
+    box-sizing: border-box;
 }
 
 
