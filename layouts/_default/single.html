@@ -2,6 +2,7 @@
 
 <strong>This is the Single template.</strong>
 <hr>
+
 {{if and (isset .Params "image" ) (ne (.Params.image) "" ) }}
 <h1 class="text-center">{{ .Title }}</h1>
 <div class="row">
@@ -14,6 +15,19 @@
 
         {{.Content}}
     </div>
+
+    {{else if (isset .Params "gallery")}}
+<div class="row">
+    <div class="col-md-3">
+    {{ range .Params.gallery }}
+        <img class="img-responsive" src="{{ . }}">
+    {{end}}
+</div>
+    <div class="col-md-9">
+
+        {{.Content}}
+    </div>
+
     {{else}}
     <h1 class="text-center">{{ .Title }}</h1>
     <div class="row">
