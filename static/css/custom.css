@@ -31,9 +31,11 @@ img{
 
 /* Bootstrap Sachen abschalten */
 
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #74AA07; 
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: rgba(116, 170, 7, 0) !important;
 }
 
 .dropdown-menu {
@@ -58,10 +60,15 @@ img{
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: #74AA07 !important;
+    background-color: rgba(116, 170, 7, 0) !important;
 }
 
-
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(116, 170, 7, 0) !important;
+}
 
 /* Aus mainmenu.css der alten Seite kopiert: */
 
