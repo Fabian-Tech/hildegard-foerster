@@ -11,6 +11,8 @@ fields:
 - type: file
   name: image
   label: image
-- type: textarea
-  name: textUnderImage
-  label: textUnderImage
+- name: textUnderImage
+  type: include
+  config: {}
+  template: text-column
+  label: Text unter Bild
