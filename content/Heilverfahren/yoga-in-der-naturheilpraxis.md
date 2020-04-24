@@ -2,7 +2,7 @@
 date = ""
 draft = true
 image = "/images/yoga.jpg"
-textUnderImage = "Yogastunden in meiner Praxis\n\nMontag:    19.00 – 20.30 Uhr\n\nMittwoch: 19.00 – 20.30 Uhr\n\nAnfänger/Fortgeschrittene\nMonatsbeitrag    50,00 €\n\n \n\n \n\n kostenlose Probestunde auf Anfrage\n\n \n\n "
+textUnderImage = "\n\n "
 title = "Yoga in der Naturheilpraxis"
 [menu.heilverfahren]
 name = "Yoga"
