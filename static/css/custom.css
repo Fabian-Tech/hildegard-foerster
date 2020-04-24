@@ -75,8 +75,7 @@ img{
 
 /* Aus mainmenu.css der alten Seite kopiert: */
 
-.hlist li
-{
+.hlist li {
     margin: 0 5px 0 0px;
     padding: 0;
     text-align: center;
@@ -89,9 +88,14 @@ img{
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 992px) {
+    .hlist li {
+        width:14% !important;
+    }
+  }
+
 .hlist li a, 
-.hlist li a:visited
-{
+.hlist li a:visited {
     cursor: pointer;
     color: white;
     font-size: 20px;
@@ -101,8 +105,7 @@ img{
     padding: 4px;
 }
 
-.hlist li:hover
-{
+.hlist li:hover {
     background-color: #8B8B91;
 }
 
