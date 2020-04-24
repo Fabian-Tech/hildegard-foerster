@@ -27,7 +27,9 @@
         <br>
         <p>Fehler bei der Thumbnail-Erstellung.</p><br>
         {{ end }}
-        {{ truncate 137 .Page.Summary}}
+        <div>
+            {{ truncate 137 .Page.Summary}}
+        </div>
         {{ end }}
     </div>
     {{ end }}
