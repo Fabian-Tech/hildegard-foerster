@@ -57,6 +57,11 @@ img{
     box-shadow: none !important;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #74AA07 !important;
+}
+
+
 
 /* Aus mainmenu.css der alten Seite kopiert: */
 
