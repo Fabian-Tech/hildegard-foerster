@@ -1,6 +1,8 @@
 +++
+content = "Yogastunden in meiner PraxisMontag:    19.00 – 20.30 UhrMittwoch: 19.00 – 20.30 UhrAnfänger/FortgeschritteneMonatsbeitrag    50,00 € kostenlose Probestunde auf Anfrage"
 date = ""
 draft = true
+headline = ""
 image = "/images/yoga.jpg"
 textUnderImage = "\n\n "
 title = "Yoga in der Naturheilpraxis"

@@ -16,3 +16,5 @@ fields:
   config: {}
   template: text-column
   label: Text unter Bild
+pages:
+- content/Heilverfahren/yoga-in-der-naturheilpraxis.md
