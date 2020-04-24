@@ -1,7 +1,7 @@
 +++
 date = 2020-04-21T22:00:00Z
 draft = true
-gallery = []
+gallery = ["/images/Praxis008big.jpg", "/images/Praxis006big.jpg", "/images/Praxis005big.jpg", "/images/Praxis004big.jpg", "/images/Praxis001big.jpg"]
 textColor = ""
 title = "Praxis"
 [menu.mainmenu]
