@@ -2,14 +2,13 @@
 title: Informationen
 
 ---
-
-#How to:
+# How to:
 
 Hier könnte man dem Kunden Informationen/Tipps zur Verwaltung angeben.
 
-###Übersicht / Erklärung der "Shortcodes"
+### Übersicht / Erklärung der "Shortcodes"
 
-\{\{< gmaps >\}\} HTML CODE für Google-Map Iframe steht hier. \{\{< /gmaps >\}\}
+{{< gmaps >}} HTML CODE für Google-Map Iframe steht hier. {{< /gmaps >}}
 
 Was ist ein "Well"?
 
@@ -19,6 +18,6 @@ Wie macht man das?
 
 So sieht der obige Block hier im Editor aus:
 
-\{\{< well >\}\}
+{{< well >}}
 Dieser Text befindet sich in einem "well".
-\{\{< /well >\}\}
+{{< /well >}}
