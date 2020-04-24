@@ -3,7 +3,7 @@ date = ""
 draft = true
 image = ""
 textUnderImage = ""
-title = "Kurse/ Aktuelles"
+title = "Kurse/Aktuelles"
 [menu.mainmenu]
 weight = 8
 

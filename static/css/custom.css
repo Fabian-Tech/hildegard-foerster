@@ -43,6 +43,7 @@ img{
     border: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+    padding-top: 0;
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -88,11 +89,24 @@ img{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 992px) {
+.hlist .dropdown-menu li {
+    width: unset !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
     .hlist li {
-        width:14% !important;
+        width:13.5% !important;
     }
   }
+  
+  @media (max-width: 1199px) and  (min-width: 992px) {
+    .hlist li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+  }
+
 
 .hlist li a, 
 .hlist li a:visited {
