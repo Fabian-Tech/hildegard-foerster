@@ -1,37 +1,39 @@
-<h2>Heilverfahren:</h2>
-<div class="row">
+<div class="ListOfHealingMethods">
+    <div class="row">
 
-    {{ range .Site.Menus.heilverfahren}}
-        <div class="col-md-4 col-sm-6">
+        {{ range .Site.Menus.heilverfahren}}
+            <div class="col-md-4 col-sm-6">
 
-            <div class="well">
-                    <h4>{{.Name}}</h3>
+                <div class="well">
+                        <h4>{{.Name}}</h3>
 
-                {{ with .Page}}
+                    {{ with .Page}}
 
-                    <!-- Checking for image-->
-                    {{if (isset .Params "image" )}}
-                        {{ $test := print (.Params.image)}}
-                        {{if (resources.GetMatch $test )}}
-                            {{ $originalimg := resources.GetMatch (.Params.image) }}
-                            {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
-                            {{ $thumbnail := .Scratch.Get "image" }}
-                            <a href="{{.RelPermalink}}">
-                                <img src='{{ $thumbnail.RelPermalink }}'>
-                            </a>
+                        <!-- Checking for image-->
+                        {{if (isset .Params "image" )}}
+                            {{ $test := print (.Params.image)}}
+                            {{if (resources.GetMatch $test )}}
+                                {{ $originalimg := resources.GetMatch (.Params.image) }}
+                                {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
+                                {{ $thumbnail := .Scratch.Get "image" }}
+                                <a href="{{.RelPermalink}}">
+                                    <img src='{{ $thumbnail.RelPermalink }}'>
+                                </a>
 
-                        {{ end }}
+                            {{ end }}
 
-                        {{else}}
-                        <br>
-                        <p>Kein Bild Hier.</p>
-                    {{end}}
+                            {{else}}
+                            <br>
+                            <p>Kein Bild Hier.</p>
+                        {{end}}
 
-                    <div>
-                        {{ truncate 137 .Page.Summary}}
-                    </div>
-                {{ end }}
+                        <p>
+                            {{ truncate 137 .Page.Summary}}
+                        </p>
+                        <p class="text-right"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></p>
+                    {{ end }}
+                </div>
             </div>
-        </div>
-    {{ end }}
+        {{ end }}
+    </div>
 </div>

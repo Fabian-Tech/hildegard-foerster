@@ -179,3 +179,18 @@ a:link
         text-decoration: underline;
         outline: 0 none;
     }
+
+    .ListOfHealingMethods strong a:link,
+    .ListOfHealingMethods strong a:visited {
+        color: white;
+        background: #74AA07;
+        line-height: 28px;
+        padding: 10px 20px;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
