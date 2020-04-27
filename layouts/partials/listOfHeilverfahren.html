@@ -27,8 +27,8 @@
                             <p>Kein Bild Hier.</p>
                         {{end}}
 
-                        <p>
-                            {{ truncate 137 .Page.Summary}}
+                        <p class="summary">
+                            {{ truncate 120 .Page.Summary}}
                         </p>
                         <p class="text-right"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></p>
                     {{ end }}

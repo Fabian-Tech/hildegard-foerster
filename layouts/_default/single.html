@@ -22,6 +22,7 @@
     {{ range .Params.gallery }}
         <img class="img-responsive" src="{{ . }}">
     {{end}}
+    {{partial "carousel" . }}
 </div>
     <div class="col-md-9">
 

@@ -202,3 +202,7 @@ a:link
     .ListOfHealingMethods img{
         margin-bottom: 5px;
     }
+
+    .summary{
+        margin-bottom: 10px !important;
+    }
