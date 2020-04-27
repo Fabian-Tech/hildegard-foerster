@@ -28,7 +28,7 @@
                         {{end}}
 
                         <p>
-                            {{ truncate 137 .Page.Summary}}
+                            {{ truncate 137 .Page.Summary | markdownify}}
                         </p>
                         <p class="text-right"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></p>
                     {{ end }}
