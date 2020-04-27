@@ -5,9 +5,17 @@ fields:
 - type: text
   name: title
   label: Titel
-- type: datetime
-  name: date
-  label: Datum
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Zusammenfassung
+  description: Die Zusammenfassung die in der Auflistung der Heilverfahren auf der
+    Startseite erscheint.
 - name: image
   type: file
   config:
