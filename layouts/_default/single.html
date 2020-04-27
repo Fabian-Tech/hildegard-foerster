@@ -22,12 +22,14 @@
     {{ range .Params.gallery }}
         <img class="img-responsive" src="{{ . }}">
     {{end}}
-    {{partial "carousel" . }}
 </div>
     <div class="col-md-9">
 
         {{.Content}}
+        {{partial "carousel" . }}
     </div>
+
+
 
     {{else}}
     <h1 class="text-center">{{ .Title }}</h1>
