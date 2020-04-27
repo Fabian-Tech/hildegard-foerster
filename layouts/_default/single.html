@@ -16,21 +16,6 @@
         {{.Content}}
     </div>
 
-    {{else if (isset .Params "gallery")}}
-<div class="row">
-    <div class="col-md-3">
-    {{ range .Params.gallery }}
-        <img class="img-responsive" src="{{ . }}">
-    {{end}}
-</div>
-    <div class="col-md-9">
-
-        {{.Content}}
-        {{partial "carousel" . }}
-    </div>
-
-
-
     {{else}}
     <h1 class="text-center">{{ .Title }}</h1>
     <div class="row">

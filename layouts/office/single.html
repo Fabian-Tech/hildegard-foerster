@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<strong>This is the "Praxis" template.</strong>
+<hr>
+
+<div class="row">
+    <div class="col-md-3">
+    {{ range .Params.gallery }}
+        <img class="img-responsive" src="{{ . }}">
+    {{end}}
+</div>
+    <div class="col-md-9">
+
+        {{.Content}}
+        {{partial "carousel" . }}
+    </div>
+
+    {{ end }}
