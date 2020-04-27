@@ -85,8 +85,11 @@ img{
     background-color:#74AA07;
     border-radius: 10px 10px 10px 10px;
     color: white;
-    height: 26px;
-    padding: 4px;
+    height: 28px;
+    padding: 0px 4px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
 }
 
 .navbar-nav {
@@ -154,55 +157,60 @@ img{
 /* aus content.css*/
 
 a:link
-    {
-        color: #595959;
-        font-size: 90%;
-        background: transparent;
-        text-decoration: underline;
-    }
-    a:visited
-    {
-        color: #036;
-    }
-    /* (en) maximum constrast for tab focus - change with great care */
-    /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
-    a:focus
-    {
-        text-decoration: underline;
-        color: #000;
-       /* background: #fff;  */
-        outline: 3px #f93 solid;
-    }
-    a:hover, a:active
-    {
-        color: #74AA07;
-        text-decoration: underline;
-        outline: 0 none;
-    }
+{
+    color: #595959;
+    font-size: 90%;
+    background: transparent;
+    text-decoration: underline;
+}
 
-    .ListOfHealingMethods strong a:link,
-    .ListOfHealingMethods strong a:visited {
-        color: white;
-        background: #74AA07;
-        line-height: 28px;
-        padding: 10px 20px;
-        font-size: 10px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-    }
+a:visited
+{
+    color: #036;
+}
+/* (en) maximum constrast for tab focus - change with great care */
+/* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
+a:focus
+{
+    text-decoration: underline;
+    color: #000;
+   /* background: #fff;  */
+    outline: 3px #f93 solid;
+}
+a:hover, a:active
+{
+    color: #74AA07;
+    text-decoration: underline;
+    outline: 0 none;
+}
+.ListOfHealingMethods strong a:link,
+.ListOfHealingMethods strong a:visited {
+    color: white;
+    background: #74AA07;
+    line-height: 28px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
 
-    .ListOfHealingMethods p{
-        margin: 0 0 0 0;
-    }
+.ListOfHealingMethods p{
+    margin: 0 0 0 0;
+}
 
-    .ListOfHealingMethods img{
-        margin-bottom: 5px;
-    }
+.ListOfHealingMethods img{
+    margin-bottom: 5px;
+}
 
-    .belowSummary{
-        margin-top: 10px !important;
-    }
+.belowSummary{
+    margin-top: 10px !important;
+}
+
+.home img{
+    width: 100%;
+    height:auto;
+}
