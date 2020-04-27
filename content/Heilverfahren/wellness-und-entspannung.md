@@ -5,6 +5,7 @@ image = "/images/wellness.jpg"
 summary = "Breuss Massage\n\nAromaöl – Massage\n\nHot Stone"
 textUnderImage = ""
 title = "Wellness und Entspannung"
+type = "singleRow"
 [menu.heilverfahren]
 name = "Wellness"
 weight = 5
