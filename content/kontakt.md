@@ -4,13 +4,12 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Kontakt"
+type = "contact"
 [menu.mainmenu]
 weight = 12
 
 +++
 #### Naturheilpraxis
-
-{{< gmaps >}}
 
 Hildegard Förster  
 Taunusblick 20  
