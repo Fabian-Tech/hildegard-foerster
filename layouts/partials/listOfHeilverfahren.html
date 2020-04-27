@@ -27,10 +27,10 @@
                             <p>Kein Bild Hier.</p>
                         {{end}}
 
-                        <p class="summary">
+                        <p>
                             {{ truncate 120 .Page.Summary}}
                         </p>
-                        <p class="text-right"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></p>
+                        <p class="text-right belowSummary"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></p>
                     {{ end }}
                 </div>
             </div>

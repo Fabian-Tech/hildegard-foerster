@@ -203,6 +203,6 @@ a:link
         margin-bottom: 5px;
     }
 
-    .summary{
-        margin-bottom: 10px !important;
+    .belowSummary{
+        margin-top: 10px !important;
     }
