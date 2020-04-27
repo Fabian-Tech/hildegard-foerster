@@ -194,3 +194,11 @@ a:link
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
     }
+
+    .ListOfHealingMethods p{
+        margin: 0 0 0 0;
+    }
+
+    .ListOfHealingMethods img{
+        margin-bottom: 5px;
+    }
