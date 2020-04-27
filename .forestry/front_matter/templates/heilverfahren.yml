@@ -10,9 +10,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html
   label: Zusammenfassung
   description: Die Zusammenfassung die in der Auflistung der Heilverfahren auf der
     Startseite erscheint.
