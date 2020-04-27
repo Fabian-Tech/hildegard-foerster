@@ -2,7 +2,7 @@
 date = ""
 draft = true
 image = "/images/wellness.jpg"
-summary = "Breuss Massage\nAromaöl – Massagen\nHot Stone"
+summary = "Breuss Massage\\n\nAromaöl – Massagen\\n\nHot Stone"
 textUnderImage = ""
 title = "Wellness und Entspannung"
 [menu.heilverfahren]
