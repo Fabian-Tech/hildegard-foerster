@@ -130,6 +130,7 @@ img{
 
 .hlist li a, 
 .hlist li a:visited {
+    text-decoration: none;
     cursor: pointer;
     color: white;
     font-size: 20px;
