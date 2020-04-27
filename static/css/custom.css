@@ -35,7 +35,8 @@ img{
 }
 
 .header ul a{
-    color: #535252;;
+    color: #535252;
+    text-decoration: none;
 }
 
 .header ul a:hover,
