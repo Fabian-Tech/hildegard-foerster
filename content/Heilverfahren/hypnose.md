@@ -7,6 +7,7 @@ textUnderImage = ""
 title = "Hypnose"
 [menu.heilverfahren]
 weight = 2
+name = "Lösungsorientierte Hypnose"
 [menu.mainmenu]
 parent = "healingMethods"
 weight = 2

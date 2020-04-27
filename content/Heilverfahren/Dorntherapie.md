@@ -9,7 +9,7 @@ menu:
     parent: healingMethods
     weight: 1
   heilverfahren:
-    name: Dorntherapie
+    name: Rückentherapie nach Dorn
     weight: 1
 draft: true
 
