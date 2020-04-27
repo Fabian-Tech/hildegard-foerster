@@ -1,15 +1,16 @@
 ---
 title: Rückentherapie nach Dorn
-date: 2020-04-21T10:30:09.000+00:00
+date: '2020-04-21T10:30:09.000+00:00'
 image: "/images/rueckentherapie.jpg"
 textUnderImage: Dorn Rückentherapie
+summary: Bei der Wirbeltherapie nach Dorn geht es darum, verschobene Wirbel und Gelenke
+  wieder sanft einzurichten und dadurch Funktionsstörungen der Wirbelsäule zu beheben.
 menu:
+  heilverfahren:
+    weight: 1
   mainmenu:
     name: Dorntherapie
     parent: healingMethods
-    weight: 1
-  heilverfahren:
-    name: Rückentherapie nach Dorn
     weight: 1
 draft: true
 
