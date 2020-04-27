@@ -4,7 +4,7 @@ draft = true
 image = ""
 textUnderImage = ""
 title = "Kontakt"
-type = "contact"
+type = "special/contact"
 [menu.mainmenu]
 weight = 12
 
