@@ -23,5 +23,3 @@ fields:
   label: IsTwoColumns
   hidden: true
   default: true
-pages:
-- content/test2.md
