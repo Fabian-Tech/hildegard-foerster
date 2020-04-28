@@ -14,6 +14,11 @@ weight = 5
 name = "Wellness"
 parent = "healingMethods"
 weight = 5
+[meta]
+author = "Naturheilpraxis Hildegard Förster Lahnstein"
+description = "Wellness und Entspannung"
+keywords = "Wellness, Entspannung, Breuss, Aromaöl, Hot Stone, Rückenpeeling, Abhyyanaga, Moorkompression, Honigkrompression, Garshan, Ayurvedisch, Massage"
+title = "Wellness und Entspannung in Lahnstein"
 [[page_sections]]
 template = "textfeld"
 [[page_sections.fieldRepeatable]]

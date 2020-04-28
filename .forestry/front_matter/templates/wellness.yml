@@ -2,14 +2,31 @@
 label: Wellness
 hide_body: true
 fields:
-- name: metatitle
-  type: text
-  config:
-    required: false
-  hidden: true
-  default: ''
-  label: Metatitel
-  description: Name der im Header unter &lt;title&gt; gezeigt wird.
+- name: meta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Beschreibung
+  - name: keywords
+    type: text
+    config:
+      required: false
+    label: Schlüsselwörter
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Urheber
+  label: meta
 - type: text
   name: type
   label: type
