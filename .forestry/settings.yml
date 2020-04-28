@@ -6,8 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: Dokument3.pdf
-  label: Dokument3
-  match: "**/*"
+  label: Dokument
   read_only: true
 - type: document
   path: customer_readme.md
