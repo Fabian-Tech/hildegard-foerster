@@ -2,6 +2,22 @@
 label: Wellness
 hide_body: true
 fields:
+- name: metatitle
+  type: text
+  config:
+    required: false
+  hidden: true
+  default: ''
+  label: Metatitel
+  description: Name der im Header unter &lt;title&gt; gezeigt wird.
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: special/wellness
+- type: text
+  name: title
+  label: title
 - type: text
   name: date
   label: date
@@ -14,14 +30,6 @@ fields:
 - type: text
   name: textUnderImage
   label: textUnderImage
-- type: text
-  name: title
-  label: title
-- type: text
-  name: type
-  label: type
-  hidden: true
-  default: special/wellness
 - name: page_sections
   type: blocks
   label: Seitenabschnitte
