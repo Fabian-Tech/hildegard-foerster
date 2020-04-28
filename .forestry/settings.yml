@@ -17,7 +17,7 @@ sections:
 - type: directory
   path: content
   label: Hauptverzeichnis
-  create: all
+  create: none
   match: "*"
 - type: directory
   path: content/Heilverfahren
@@ -25,6 +25,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - wellness
   - heilverfahren
 - type: heading
   label: Administration
