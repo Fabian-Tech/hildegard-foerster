@@ -2,7 +2,7 @@
 date = ""
 draft = true
 image = "/images/wellness.jpg"
-metatitle = ""
+metatitle = "Wellness und Entspannung in Lahnstein"
 summary = "Breuss Massage\n\nAromaöl – Massage\n\nHot Stone"
 textUnderImage = ""
 title = "Wellness und Entspannung"

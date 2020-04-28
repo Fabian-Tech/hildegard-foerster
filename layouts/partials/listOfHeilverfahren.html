@@ -1,22 +1,8 @@
 <div class="ListOfHealingMethods">
     <div class="row">
-
-        {{ .Scratch.Set "i" 0 }}
-        {{ .Scratch.Set "classString" "" }}
         {{ range .Site.Menus.heilverfahren}}
-            {{ with .Page }}
-                {{ .Scratch.Set "classString" ""}}
-                {{ if (eq (mod ($.Scratch.Get "i") 3) 0)}}
-                    {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") " row3")}}
-                {{ end }}
-                {{if (eq (mod ($.Scratch.Get "i") 2) 0)}}
-                        {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") " row2")}}
-                {{ end }}
-                {{ $.Scratch.Set "i" (add ($.Scratch.Get "i") 1) }}
-            
+                <div class="col-md-4 col-sm-6">
 
-                <div class='{{ print "col-md-4 col-sm-6" (.Scratch.Get "classString")}}'>
-            {{ end }}
                 <div class="well">
                         <h4>{{.Name}}</h3>
 

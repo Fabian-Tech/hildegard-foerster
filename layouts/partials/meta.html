@@ -1,0 +1,6 @@
+{{ if and (isset .Params "metatitle") (ne .Params.metatitle "")}}
+<title>{{ .Params.metatitle }}</title>
+{{ else }}
+<title>{{ .Title }}</title>
+
+{{ end }}
