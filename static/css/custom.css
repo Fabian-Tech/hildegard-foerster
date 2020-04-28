@@ -139,7 +139,9 @@ img{
     }
   }
 
-
+.office img{
+    margin-bottom: 5px;
+}
 
 .hlist li a, 
 .hlist li a:visited {
