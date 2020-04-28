@@ -129,7 +129,16 @@ img{
         padding-left: 2px;
         padding-right: 2px;
     }
+    .ListOfHealingMethods .well{
+        height:341px;
+    }
   }
+  @media (max-width: 991px) and  (min-width: 768px) {
+    .ListOfHealingMethods .well{
+        height:300px;
+    }
+  }
+
 
 
 .hlist li a, 
