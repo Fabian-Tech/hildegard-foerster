@@ -1,6 +1,6 @@
 ---
 label: Wellness
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: date
@@ -20,3 +20,11 @@ fields:
 - type: text
   name: type
   label: type
+- name: page_sections
+  type: blocks
+  label: Seitenabschnitte
+  template_types:
+  - textfeld
+  config:
+    min: 
+    max: 
