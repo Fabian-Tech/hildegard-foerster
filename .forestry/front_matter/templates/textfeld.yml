@@ -8,7 +8,7 @@ fields:
   - name: headline
     type: text
     config:
-      required: false
+      required: true
     label: Überschrift
   - name: textArea
     type: textarea
