@@ -3,11 +3,20 @@
 <strong style="color:red">This is the Single template for "Wellness".</strong>
 <hr>
 
-    <h1 class="text-center">{{ .Title }}</h1>
-    <div class="row">
-        <div class="col-md-12">
+<h1 class="text-center">{{ .Title }}</h1>
+<div class="row">
+    <div class="col-md-12">
         <img class="img-responsive center-block" src="{{ .Params.image }}">
-            {{.Content}}
-        </div>
+        <br>
+        {{ range .Params.page_sections}}
+            {{ range .fieldRepeatable}}
+            <div class="well">
+                <h4>{{ .headline }}</h4><br>
+                <p>{{ .textArea  | markdownify}}</p>
+            </div>
+            {{ end }}
+
+        {{ end }}
     </div>
-    {{ end }}
+</div>
+{{ end }}
