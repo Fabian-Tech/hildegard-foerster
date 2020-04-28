@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: Dokument3.pdf
+  label: Dokument3
+  match: "**/*"
+  read_only: true
+- type: document
   path: customer_readme.md
   label: Informationen
   read_only: true
