@@ -18,7 +18,7 @@ weight = 5
 template = "textfeld"
 [[page_sections.fieldRepeatable]]
 headline = "Breuss Massage"
-textArea = "Energetische Massage mit warmen Johannisblütenöl eine Wohltat für den Rücken und die Bandscheiben\n\n40 Min.   38,--€"
+textArea = "Energetische Massage mit warmen Johannisblütenöl eine Wohltat für den Rücken und die Bandscheiben\n\n40 Min. 38,--€"
 [[page_sections.fieldRepeatable]]
 headline = "Aromaöl – Massagen"
 textArea = "Entspannende Ganzkörper oder Rückenmassage mit duftenden warmen Aromaölen wie Rosenöl, Lavendel oder Orangen-Sanddornöl.\n\nRückenmassage 30 Min. 35,00 €\n\nGanzkörpermassage 60 Min. 55,00 €"
