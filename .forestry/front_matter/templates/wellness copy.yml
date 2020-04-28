@@ -2,32 +2,6 @@
 label: Kurse/Aktuelles
 hide_body: true
 fields:
-- name: meta
-  type: field_group
-  config: {}
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Titel
-  - name: description
-    type: text
-    config:
-      required: false
-    label: Beschreibung
-  - name: keywords
-    type: text
-    config:
-      required: false
-    label: Schlüsselwörter
-  - name: author
-    type: text
-    config:
-      required: false
-    label: Urheber
-  label: meta
-  hidden: true
 - type: text
   name: type
   label: type
