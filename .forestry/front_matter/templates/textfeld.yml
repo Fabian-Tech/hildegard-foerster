@@ -1,4 +1,26 @@
 ---
 label: Textfeld
 hide_body: true
-fields: []
+fields:
+- name: fieldRepeatable
+  type: field_group_list
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Überschrift
+  - name: textArea
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Textfeld
