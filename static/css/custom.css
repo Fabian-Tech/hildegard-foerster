@@ -121,6 +121,9 @@ img{
     .hlist li {
         width:16% !important;
     }
+    .ListOfHealingMethods .well{
+        height:280px;
+    }
   }
   
   @media (max-width: 1199px) and  (min-width: 992px) {
@@ -219,6 +222,9 @@ a:hover, a:active
 
 .belowSummary{
     margin-top: 10px !important;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
 }
 
 .home img{
