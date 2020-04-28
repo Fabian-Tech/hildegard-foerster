@@ -1,40 +1,11 @@
-<html>
+{{ define "main" }}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Lightbox-->
+    <!-- Bootstrap Lightbox by ahsleydw MIT License-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-    <!-- Custom Stylesheet-->
-    <link rel="stylesheet" href="/css/custom.css">
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
 
-
-    <div class="container">
-        {{partial "header" . }}
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="border-white">
-
-                    {{partial "navbar" . }}
-
-                    <div class="bg-white">
 
                         <strong>This is the "Praxis" template.</strong>
                         <hr>
@@ -51,14 +22,7 @@
 
                                 {{.Content}}
                             </div>
-
-
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
 
 	<!-- ** Lightbox Script ** -->
 	<script>
@@ -67,8 +31,4 @@
 		  $(this).ekkoLightbox();
 		});
 	</script>
-
-</body>
-
-
-</html>
+{{ end }}
