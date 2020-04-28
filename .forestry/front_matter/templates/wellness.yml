@@ -28,9 +28,6 @@ fields:
       format: markdown
   label: Zusammenfassung
   description: Wird auf der Startseite angezeigt
-- type: text
-  name: date
-  label: date
 - type: file
   name: image
   label: image
