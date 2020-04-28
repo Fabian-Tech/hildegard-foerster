@@ -11,7 +11,7 @@
         {{ range .Params.page_sections}}
             {{ range .fieldRepeatable}}
             <div class="well">
-                <h4>{{ .headline }}</h4><br>
+                <h4>{{ .headline }}</h4>
                 <p>{{ .textArea  | markdownify}}</p>
             </div>
             {{ end }}
