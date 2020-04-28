@@ -7,7 +7,7 @@ sections:
 - type: document
   path: Dokument3.pdf
   label: Test
-  match: "**/*"
+  read_only: true
 - type: document
   path: customer_readme.md
   label: Informationen
