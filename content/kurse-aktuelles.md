@@ -9,11 +9,6 @@ title = "Kurse/Aktuelles"
 type = "special/courses"
 [menu.mainmenu]
 weight = 8
-[meta]
-author = ""
-description = ""
-keywords = ""
-title = ""
 [[page_sections]]
 template = "textfeld"
 [[page_sections.fieldRepeatable]]
