@@ -18,12 +18,19 @@ fields:
 - type: text
   name: title
   label: title
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Zusammenfassung
+  description: Wird auf der Startseite angezeigt
 - type: text
   name: date
   label: date
-- type: text
-  name: summary
-  label: summary
 - type: file
   name: image
   label: image
