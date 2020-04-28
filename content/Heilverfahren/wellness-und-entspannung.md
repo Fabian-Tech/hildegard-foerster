@@ -6,7 +6,7 @@ metatitle = ""
 summary = "Breuss Massage\n\nAromaöl – Massage\n\nHot Stone"
 textUnderImage = ""
 title = "Wellness und Entspannung"
-type = "singleRow"
+type = "special/wellness"
 [menu.heilverfahren]
 name = "Wellness"
 weight = 5
