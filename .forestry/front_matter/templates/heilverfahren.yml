@@ -19,7 +19,7 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 
   label: Bild
 - name: textUnderImage
   type: textarea
@@ -34,6 +34,7 @@ pages:
 - content/Heilverfahren/facial-harmony-streicheleinheiten-für-ihr-gesicht.md
 - content/Heilverfahren/hypnose.md
 - content/Heilverfahren/mutter-und-kind.md
+- content/Heilverfahren/yoga-in-der-naturheilpraxis.md
 - content/impressum.md
 - content/kontakt.md
 - content/kurse-aktuelles.md

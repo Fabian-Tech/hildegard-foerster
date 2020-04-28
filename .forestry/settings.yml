@@ -5,11 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: Dokument3.pdf
-  label: Dokument3
-  match: "**/*"
-  read_only: true
-- type: document
   path: customer_readme.md
   label: Informationen
   read_only: true
@@ -18,7 +13,7 @@ sections:
 - type: directory
   path: content
   label: Hauptverzeichnis
-  create: all
+  create: none
   match: "*"
 - type: directory
   path: content/Heilverfahren
@@ -27,14 +22,7 @@ sections:
   match: "**/*"
   templates:
   - heilverfahren
-- type: heading
-  label: Administration
-- type: document
-  path: config.toml
-  label: config.toml
-- type: document
-  path: data/about.toml
-  label: Impressum
+  - wellness
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
