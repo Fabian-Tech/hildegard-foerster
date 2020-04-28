@@ -2,10 +2,19 @@
 date = ""
 draft = true
 image = ""
+page_sections = []
+summary = ""
+textColor = ""
 textUnderImage = ""
 title = "Kurse/Aktuelles"
+type = "special/courses"
 [menu.mainmenu]
 weight = 8
+[meta]
+author = ""
+description = ""
+keywords = ""
+title = ""
 
 +++
 **Yogakurse in meiner Praxis**
