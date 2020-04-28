@@ -21,15 +21,12 @@ fields:
 - type: text
   name: date
   label: date
-- type: file
-  name: image
-  label: image
 - type: text
   name: summary
   label: summary
-- type: text
-  name: textUnderImage
-  label: textUnderImage
+- type: file
+  name: image
+  label: image
 - name: page_sections
   type: blocks
   label: Seitenabschnitte
