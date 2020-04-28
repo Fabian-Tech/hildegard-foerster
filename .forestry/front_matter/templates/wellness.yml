@@ -27,6 +27,7 @@ fields:
       required: false
     label: Urheber
   label: meta
+  hidden: true
 - type: text
   name: type
   label: type
