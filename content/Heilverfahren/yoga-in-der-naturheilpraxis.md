@@ -14,7 +14,11 @@ weight = 6
 name = "Yoga"
 parent = "healingMethods"
 weight = 6
-
+[meta]
+author = "Naturheilpraxis Hildegard Förster Lahnstein"
+description = "Yoga in der Naturheilpraxis - Selbstheilung durch Gymnastik"
+keywords = "Yoga in der Naturheilpraxis, Yoga, Rücken, Stressabbau, Morgengymnastik"
+title = "Yoga in der Naturheilpraxis Hildegard Förster"
 +++
 #### Yoga
 

@@ -12,7 +12,11 @@ weight = 2
 [menu.mainmenu]
 parent = "healingMethods"
 weight = 2
-
+[meta]
+author = "Naturheilpraxis Hildegard Förster Lahnstein"
+description = "Was ist Hypnose? Eine seriöse, wissenschaftlich anerkannte Behandlung zur Heilung von Körper und Seele."
+keywords = "Hypnose, Hypnosetherapie, Geist, Hypnosesitzung, Entspannung, Trance, innere Bilder, innere Weisheit, Ängste, Persönlichkeitsentwicklung, Stressbewältigung, Stress, traumatische Erlebnisse, Lernblockade"
+title = "Hypnosetherapie in der Naturheilpraxis Hildegard Förster"
 +++
 #### Was ist Hypnose?
 

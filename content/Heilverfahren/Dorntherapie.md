@@ -13,6 +13,11 @@ menu:
     parent: healingMethods
     weight: 1
 draft: true
+meta:
+  author: Naturheilpraxis Hildegard Förster Lahnstein
+  description: Wirbel- und Gelenktherapie nach Dorn in der Naturheilpraxis Hildegard Förster in Lahnstein
+  keywords: Wirbel und Gelenktherapie, Dorn, Rückentherapie, Wirbelverschiebung, Beschwerden, Rückenbeschwerden, Rückenschmerzen, Verspannungen, Kopfschmerzen, Taubheit, Engegefühl, Naturheilpraxis, Hildegard Förster, Naturheilkunde, Naturheilpraxis Hildegard Förster
+  title: Rückentherapie nach Dorn bei Rückenbeschwerden
 
 ---
 Bei der Wirbeltherapie nach Dorn geht es darum, verschobene Wirbel und Gelenke wieder sanft einzurichten und dadurch Funktionsstörungen der Wirbelsäule zu beheben. Warten Sie nicht, bis sich erhebliche Beschwerden im Rücken zeigen, sondern nehmen Sie erste Anzeichen ernst!

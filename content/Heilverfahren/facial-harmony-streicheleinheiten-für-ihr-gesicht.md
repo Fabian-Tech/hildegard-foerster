@@ -12,6 +12,11 @@ weight = 3
 name = "Facial Harmony"
 parent = "healingMethods"
 weight = 3
+[meta]
+author = "Naturheilpraxis Hildegard Förster Lahnstein"
+description = "Facial Harmony - Streicheleinheiten für Ihr Gesicht"
+keywords = "Facial Harmony, Tiefenentspannung, Energiefluss, Spiegel der Seele, Aussehen, Gesundheit, Meridiansystem, Chinesische Medizin, Zeit, Verspannungen, Einzelsitzung"
+title = "Facial Harmony - Gesichtsbehandlungen in der Naturheilpraxis Hildegard Förster"
 
 +++
 Das Gesicht ist der Spiegel unserer Seele
