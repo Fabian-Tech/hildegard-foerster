@@ -23,14 +23,6 @@ sections:
   templates:
   - heilverfahren
   - wellness
-- type: heading
-  label: Administration
-- type: document
-  path: config.toml
-  label: config.toml
-- type: document
-  path: data/about.toml
-  label: Impressum
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
