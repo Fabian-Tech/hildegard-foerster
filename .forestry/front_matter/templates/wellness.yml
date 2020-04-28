@@ -38,3 +38,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- content/Heilverfahren/wellness-und-entspannung.md
