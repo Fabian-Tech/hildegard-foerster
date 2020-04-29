@@ -1,7 +1,7 @@
 +++
 date = ""
-draft = true
 image = "/images/HildegardFoerster.jpg"
+summary = ""
 textUnderImage = ""
 title = "Über Hildegard Förster"
 [menu.mainmenu]
