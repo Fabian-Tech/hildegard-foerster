@@ -6,7 +6,6 @@ menu:
   mainmenu:
     name: Startseite
     weight: 7
-draft: true
 
 ---
 ![](/images/slide.jpg)
