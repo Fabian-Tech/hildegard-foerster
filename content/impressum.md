@@ -1,11 +1,10 @@
 +++
 date = ""
-draft = true
 image = ""
+summary = ""
 textUnderImage = ""
 title = "Impressum"
 [menu.impressum]
-name = "Impressum"
 
 +++
 #### Betreiber der Website
