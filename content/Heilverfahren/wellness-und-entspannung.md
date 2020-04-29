@@ -1,5 +1,4 @@
 +++
-draft = true
 image = "/images/wellness.jpg"
 summary = "Breuss Massage\n\nAromaöl – Massage\n\nHot Stone"
 textUnderImage = ""

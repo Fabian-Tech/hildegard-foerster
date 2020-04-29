@@ -1,7 +1,6 @@
 +++
 content = "Yogastunden in meiner PraxisMontag:    19.00 – 20.30 UhrMittwoch: 19.00 – 20.30 UhrAnfänger/FortgeschritteneMonatsbeitrag    50,00 € kostenlose Probestunde auf Anfrage"
 date = ""
-draft = true
 headline = ""
 image = "/images/yoga.jpg"
 summary = "eine Jahrtausende alte, indische Lehre von Atem-, Körper- und Bewusstseinsübungen mit dem Ziel, Körper, Geist und Seele in Einklang zu bringen."
@@ -19,6 +18,7 @@ author = "Naturheilpraxis Hildegard Förster Lahnstein"
 description = "Yoga in der Naturheilpraxis - Selbstheilung durch Gymnastik"
 keywords = "Yoga in der Naturheilpraxis, Yoga, Rücken, Stressabbau, Morgengymnastik"
 title = "Yoga in der Naturheilpraxis Hildegard Förster"
+
 +++
 #### Yoga
 
