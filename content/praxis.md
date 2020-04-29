@@ -1,6 +1,5 @@
 +++
 date = 2020-04-21T22:00:00Z
-draft = true
 gallery = ["/images/Praxis004big.jpg", "/images/Praxis005big.jpg", "/images/Praxis001big.jpg", "/images/Praxis006big.jpg", "/images/Praxis008big.jpg"]
 textColor = ""
 title = "Praxis"

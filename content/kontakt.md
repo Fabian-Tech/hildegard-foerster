@@ -1,7 +1,7 @@
 +++
 date = ""
-draft = true
 image = ""
+summary = ""
 textUnderImage = ""
 title = "Kontakt"
 type = "special/contact"
