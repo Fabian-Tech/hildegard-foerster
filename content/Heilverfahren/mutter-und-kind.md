@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 image = "/images/mutterundkind.jpg"
 summary = "Je stärker sich die Mutter fühlt, umso kraftvoller entwickelt sich das Kind."
 textUnderImage = ""

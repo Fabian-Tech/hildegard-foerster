@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 image = "/images/facialharmony.jpg"
 summary = "…steht für eine außergewöhnliche Tiefenentspannung.\nSanfte Berührung und Stimulierung gezielter Energiepunkte und Muskelpartien im Gesicht-, Kopf- und Nackenbereich, aktivieren den Energiefluss durch Ihren Körper. "
 textUnderImage = ""

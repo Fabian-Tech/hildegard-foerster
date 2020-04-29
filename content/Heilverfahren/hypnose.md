@@ -1,6 +1,5 @@
 +++
 date = "2020-04-20T22:00:00.000+00:00"
-draft = true
 image = "/images/black.jpg"
 summary = "Hypnosetherapie ist eine seriöse, wissenschaftlich anerkannte Behandlung zur Heilung von Körper und Seele."
 textColor = ""
