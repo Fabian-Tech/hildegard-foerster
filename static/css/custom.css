@@ -99,6 +99,10 @@ img{
 
 /* Aus mainmenu.css der alten Seite kopiert: */
 
+p, ul{
+    color: #5B5B5B;
+}
+
 .hlist li {
     margin: 0 5px 0 0px;
     padding: 0;
