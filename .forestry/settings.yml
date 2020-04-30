@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: "\\images\\Test.pdf"
+  path: admin/images/Test.pdf
   label: Test
   match: "**/*"
 - type: document
