@@ -7,7 +7,6 @@ sections:
 - type: document
   path: admin/images/Test.pdf
   label: Test
-  match: "**/*"
 - type: document
   path: customer_readme.md
   label: Informationen
