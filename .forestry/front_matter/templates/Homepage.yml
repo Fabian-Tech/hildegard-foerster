@@ -6,9 +6,6 @@ fields:
 - type: text
   name: title
   label: Titel
-- type: datetime
-  name: date
-  label: Datum
 - name: textColor
   type: color
   label: Textfarbe
