@@ -2,9 +2,6 @@
 label: Praxis
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
   label: title
