@@ -5,6 +5,7 @@ summary = ""
 textUnderImage = ""
 title = "Impressum"
 [menu.impressum]
+weight = 2
 
 +++
 #### Betreiber der Website

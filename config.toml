@@ -7,6 +7,10 @@ title = "My New Hugo Site"
 identifier = "healingMethods"
 name = "Heilverfahren"
 weight = 9
+[[menu.impressum]]
+name = "Anmelden"
+URL = "/admin"
+weight = 1
 [params]
 [params.meta]
 author = "Naturheilpraxis Hildegard Förster Lahnstein"
