@@ -5,6 +5,10 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
+  path: "\\images\\Test.pdf"
+  label: Test
+  match: "**/*"
+- type: document
   path: customer_readme.md
   label: Informationen
   read_only: true
