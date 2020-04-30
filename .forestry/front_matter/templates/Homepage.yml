@@ -18,5 +18,3 @@ fields:
   config:
     maxSize: 
   label: Bild
-pages:
-- content/_index.md
