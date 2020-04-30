@@ -13,5 +13,10 @@ fields:
     required: false
     color_format: Hex
   description: Textfarbe bestimmen
+  - name: image
+  type: file
+  config:
+    maxSize: 
+  label: Bild
 pages:
 - content/_index.md
