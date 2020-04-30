@@ -13,7 +13,7 @@ fields:
     required: false
     color_format: Hex
   description: Textfarbe bestimmen
-  - name: image
+- name: image
   type: file
   config:
     maxSize: 
