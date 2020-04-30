@@ -1,22 +1,17 @@
 {{ define "main" }}
-
-<strong style="color:red">This is the Single template for "Kurse/Aktuelles".</strong>
-<hr>
-
-<h1 class="text-center">{{ .Title }}</h1>
-<div class="row">
-    <div class="col-md-12">
-        <img class="img-responsive center-block" src="{{ .Params.image }}">
-        <br>
-        {{ range .Params.page_sections}}
-            {{ range .fieldRepeatable}}
-            <div class="well">
-                <h4>{{ .headline }}</h4>
-                <p>{{ .textArea  | markdownify}}</p>
-            </div>
+    <h1 class="text-center">{{ .Title }}</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive center-block" src="{{ .Params.image }}">
+            <br>
+            {{ range .Params.page_sections}}
+                {{ range .fieldRepeatable}}
+                <div class="well">
+                    <h3><strong>{{ .headline }}</strong></h3>
+                    <p>{{ .textArea  | markdownify}}</p>
+                </div>
+                {{ end }}
             {{ end }}
-
-        {{ end }}
+        </div>
     </div>
-</div>
 {{ end }}
