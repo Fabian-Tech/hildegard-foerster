@@ -1,8 +1,8 @@
 assetDir = "static"
-baseURL = "http://example.org/"
+baseURL = "http://www.hildegard-foerster.de/"
 languageCode = "de-de"
 pluralizelisttitles = false
-title = "My New Hugo Site"
+title = "Naturheilpraxis Hildegard Förster"
 [[menu.mainmenu]]
 identifier = "healingMethods"
 name = "Heilverfahren"
